@@ -5,8 +5,8 @@ import pandas as pd
 
 st.set_page_config(page_title="calculadora Tabla de Verdad", layout="centered")
 
-st.tittle("Calculadora de  Tabla de Verdad")
-st.markdown("Contruye tu expresion hacienco clic. El resultado se mostrara **exclusivamente en 8 y 1**.*")
+st.title("Calculadora de  Tabla de Verdad")
+st.markdown("Contruye tu expresion hacienco clic. El resultado se mostrara **exclusivamente en 0 y 1**.")
 
 #---Estado de la sesion---
 if "expr" not in st.session_state:
